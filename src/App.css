@@ -1,0 +1,98 @@
+:root {
+  --primary: #7b2cbf;
+  --secondary: #240046;
+}
+
+.page-heading {
+  text-align: center;
+  margin: 2rem;
+  color: var(--secondary);
+}
+
+.home-content {
+  text-align: center;
+  padding: 8rem;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  text-align: right;
+  padding: 1.2rem;
+  background-color: #9d4edd15;
+  box-shadow: 2px 2px 5px #7a2cbfa0;
+}
+
+.navLink {
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card {
+  padding: 1rem;
+  width: 330px;
+  border-radius: 5px;
+  background-color: #9d4edd15;
+  box-shadow: 2px 2px 5px #7a2cbfa0;
+}
+
+.videoDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-link {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.card-link:hover {
+  color: var(--secondary);
+}
+
+.card-img {
+  width: 330px;
+  height: 210px;
+}
+
+.card-list {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.card-link:hover {
+  color: var(--secondary);
+}
+
+.btn-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  opacity: 0.95;
+  margin-top: 1rem;
+}
+button:hover {
+  opacity: 1;
+}
+
+.sub-heading {
+  text-align: center;
+  color: var(--primary);
+}
